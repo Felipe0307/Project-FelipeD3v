@@ -1,0 +1,1271 @@
+@media screen and (max-width: 2500px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    outline: 0;
+    transition: all 0.3s ease;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Abel&family=Domine:wght@600&display=swap");
+
+  body {
+    background-image: url(https://wallpapercave.com/wp/wp10777288.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "abel", sem serifa;
+    font-family: "cinzel", serif, monospace;
+    font-size: 22px;
+    padding: -85px;
+    margin-left: 15px;
+  }
+
+  input {
+    margin: 6px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: #ffff;
+    border: solid 1px;
+    border-color: #ffffff;
+    background-color: #c9efec71;
+    font-size: 19px;
+    padding-left: 12px;
+    text-decoration: none;
+  }
+
+  input:hover {
+    transform: scale(1.18);
+  }
+
+  textarea {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #062c7f;
+    border-radius: 7px;
+    border: double 1px;
+    border-color: #eda47a;
+    margin: 10px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    width: 400px;
+    height: 200px;
+  }
+
+  button {
+    font-size: 20px;
+    margin: 5px;
+    background-image: linear-gradient(-45deg, #c66afb, #bbf0f3, #f6d285);
+    box-shadow: 0 0 7px #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    width: 140px;
+    height: 35px;
+  }
+
+  button:hover {
+    transform: scale(1.45);
+    color: #050585;
+  }
+
+  div img {
+    opacity: 0.7;
+    border-radius: 13px;
+    box-shadow: 0 0 4px #ffff;
+    margin: 10px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+  }
+
+  label {
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    opacity: 0.9;
+    border-radius: 12px;
+    font-size: 35px;
+    white-space: nowrap;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    color: #aef0ef;
+    top: 1px;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 21px;
+    margin-left: 25px;
+    margin-bottom: -30px;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #eda47a;
+  }
+
+  hr {
+    width: 40px;
+    margin-left: -10px;
+    top: -15px;
+    background-color: #f8bf02;
+  }
+
+  hr:hover {
+    transform: scale(1.25);
+  }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f8bf02ad;
+  }
+
+  ::-webkit-scrollbar {
+    overflow-block: hidden;
+  }
+
+  #alunos {
+    color: #f8bf02;
+  }
+
+  #header {
+    margin-bottom: 200px;
+    margin-left: 50px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    overflow-x: visible;
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+    border: double 4px #7abfed;
+    border-radius: 50%;
+    padding: -0%;
+    margin-left: 19px;
+    margin-bottom: -75px;
+    opacity: 1;
+  }
+
+  #birthYear {
+    margin-left: 8px;
+  }
+
+  #name {
+    margin-left: 8px;
+  }
+
+  .Formulário {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+
+  .campodeestudos {
+    margin-left: 19px;
+    color: #fff4f4;
+  }
+
+  .rubi {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .rubi[type="checkbox"]:checked + #rubi::after {
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -64px;
+    top: 486px;
+    transition: all 1s ease;
+    transform: rotate(45deg);
+    content: "";
+  }
+
+  #rubi {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #rubi:hover {
+    transform: scale(1.55);
+  }
+
+  .react {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .react[type="checkbox"]:checked + #react::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -135px;
+    top: 631px;
+    transform: rotate(45deg);
+  }
+
+  #react {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #react:hover {
+    transform: scale(1.55);
+  }
+
+  .php {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .php[type="checkbox"]:checked + #php::after {
+    content: "";
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -55px;
+    top: 777px;
+    transform: rotate(45deg);
+  }
+
+  #php {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #php:hover {
+    transform: scale(1.55);
+  }
+
+  .sql {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 15px;
+  }
+
+  .sql[type="checkbox"]:checked + #sql::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    align-items: center;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    top: 922px;
+    margin-left: -50.5px;
+    transform: rotate(45deg);
+  }
+
+  #sql {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #sql:hover {
+    transform: scale(1.55);
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    outline: 0;
+    transition: all 0.3s ease;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Abel&family=Domine:wght@600&display=swap");
+
+  body {
+    background-image: url(https://wallpapercave.com/wp/wp10777288.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "abel", sem serifa;
+    font-family: "cinzel", serif, monospace;
+    font-size: 22px;
+    padding: -85px;
+  }
+
+  input {
+    margin: 6px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: #ffff;
+    border: solid 1px;
+    border-color: #ffffff;
+    background-color: #c9efec71;
+    font-size: 19px;
+    padding-left: 12px;
+    text-decoration: none;
+  }
+
+  input:hover {
+    transform: scale(1.18);
+  }
+
+  textarea {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #062c7f;
+    border-radius: 7px;
+    border: double 1px;
+    border-color: #eda47a;
+    padding: 11px;
+    margin-bottom: 35px;
+    margin-left: 45px;
+    width: 400px;
+    height: 200px;
+  }
+
+  textarea:hover {
+    transform: scale(1.06);
+  }
+
+  button {
+    font-size: 20px;
+    margin: 5px;
+    background-image: linear-gradient(205deg, #bbf0f3, #f6d285);
+    box-shadow: 0 0 7px #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    width: 140px;
+    height: 35px;
+  }
+
+  button:hover {
+    transform: scale(1.45);
+    color: #fff4f4;
+  }
+
+  div img {
+    opacity: 0.7;
+    border-radius: 13px;
+    box-shadow: 0 0 4px #ffff;
+    margin: 10px;
+    margin-bottom: 7px;
+    margin-left: 40px;
+  }
+
+  label {
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    opacity: 0.9;
+    border-radius: 12px;
+    font-size: 35px;
+    white-space: nowrap;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    color: #aef0ef;
+    top: 1px;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #eda47a;
+  }
+
+  hr {
+    width: 420px;
+    margin-left: 1px;
+    top: -15px;
+    background-color: #f8bf02;
+  }
+
+  hr:hover {
+    transform: scale(1.1);
+  }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f8bf02ad;
+  }
+
+  ::-webkit-scrollbar {
+    overflow-block: hidden;
+  }
+
+  #alunos {
+    color: #f8bf02;
+  }
+
+  #header {
+    margin-bottom: 200px;
+    margin-left: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    overflow-x: visible;
+  }
+
+  #header:hover {
+    transform: scale(1.25);
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+    border: double 2px #7abfed;
+    border-radius: 50%;
+    padding: -0%;
+    margin-left: 19px;
+    margin-bottom: -75px;
+    opacity: 0.9;
+  }
+
+  #birthYear {
+    margin-left: 8px;
+  }
+
+  #name {
+    margin-left: 8px;
+  }
+
+  .Formulário {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+
+  .campodeestudos {
+    margin-left: 40px;
+    color: #fff4f4;
+  }
+
+  .rubi {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .rubi[type="checkbox"]:checked + #rubi::after {
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -64px;
+    top: 495px;
+    transition: all 1s ease;
+    transform: rotate(45deg);
+    content: "";
+  }
+
+  #rubi {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #rubi:hover {
+    transform: scale(1.55);
+  }
+
+  .react {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .react[type="checkbox"]:checked + #react::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -135px;
+    top: 640px;
+    transform: rotate(45deg);
+  }
+
+  #react {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #react:hover {
+    transform: scale(1.55);
+  }
+
+  .php {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .php[type="checkbox"]:checked + #php::after {
+    content: "";
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -55px;
+    top: 786px;
+    transform: rotate(45deg);
+  }
+
+  #php {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #php:hover {
+    transform: scale(1.55);
+  }
+
+  .sql {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 15px;
+  }
+
+  .sql[type="checkbox"]:checked + #sql::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    align-items: center;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    top: 931px;
+    margin-left: -50.5px;
+    transform: rotate(45deg);
+  }
+
+  #sql {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  #sql:hover {
+    transform: scale(1.55);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    outline: 0;
+    transition: all 0.3s ease;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Abel&family=Domine:wght@600&display=swap");
+
+  body {
+    background-image: url(https://wallpapercave.com/wp/wp10777288.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "abel", sem serifa;
+    font-family: "cinzel", serif, monospace;
+    font-size: 22px;
+    padding: -85px;
+    margin-left: 15px;
+  }
+
+  input {
+    margin: 6px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: #ffff;
+    border: solid 1px;
+    border-color: #ffffff;
+    background-color: #c9efec71;
+    font-size: 19px;
+    padding-left: 12px;
+    text-decoration: none;
+  }
+
+  input:hover {
+    transform: scale(1.18);
+  }
+
+  textarea {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #062c7f;
+    border-radius: 7px;
+    border: double 1px;
+    border-color: #eda47a;
+    margin: 10px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    width: 400px;
+    height: 200px;
+  }
+
+  button {
+    font-size: 20px;
+    margin: 5px;
+    background-image: linear-gradient(-45deg, #c66afb, #bbf0f3, #f6d285);
+    box-shadow: 0 0 7px #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    width: 140px;
+    height: 35px;
+  }
+
+  button:hover {
+    transform: scale(1.45);
+    color: #050585;
+  }
+
+  div img {
+    opacity: 0.7;
+    border-radius: 13px;
+    box-shadow: 0 0 4px #ffff;
+    margin: 10px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+  }
+
+  div img:hover {
+    transform: scale(1.25);
+  }
+
+  label {
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    opacity: 0.9;
+    border-radius: 12px;
+    font-size: 35px;
+    white-space: nowrap;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    color: #aef0ef;
+    top: 1px;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 21px;
+    margin-left: 25px;
+    margin-bottom: -30px;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #eda47a;
+  }
+
+  hr {
+    width: 450px;
+    margin-left: -10px;
+    top: -15px;
+    background-color: #f8bf02;
+  }
+
+  hr:hover {
+    transform: scale(1.25);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f8bf02ad;
+  }
+
+  ::-webkit-scrollbar {
+    overflow-block: hidden;
+  }
+
+  #alunos {
+    color: #f8bf02;
+  }
+
+  #header {
+    margin-bottom: 200px;
+    margin-left: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    overflow-x: visible;
+  }
+
+  #header:hover {
+    transform: scale(1.25);
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+    border: double 4px #7abfed;
+    border-radius: 50%;
+    padding: -0%;
+    margin-left: 19px;
+    margin-bottom: -75px;
+    opacity: 1;
+  }
+
+  #birthYear {
+    margin-left: 8px;
+  }
+
+  #name {
+    margin-left: 8px;
+  }
+
+  .Formulário {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+
+  .campodeestudos {
+    margin-left: 19px;
+    color: #fff4f4;
+  }
+
+  .rubi {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .rubi[type="checkbox"]:checked + #rubi::after {
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -64px;
+    top: 486px;
+    transition: all 1s ease;
+    transform: rotate(45deg);
+    content: "";
+  }
+
+  #rubi {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  .react {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .react[type="checkbox"]:checked + #react::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -135px;
+    top: 631px;
+    transform: rotate(45deg);
+  }
+
+  #react {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  .php {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .php[type="checkbox"]:checked + #php::after {
+    content: "";
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -55px;
+    top: 777px;
+    transform: rotate(45deg);
+  }
+
+  #php {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+  .sql {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 15px;
+  }
+
+  .sql[type="checkbox"]:checked + #sql::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    align-items: center;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    top: 922px;
+    margin-left: -50.5px;
+    transform: rotate(45deg);
+  }
+
+  #sql {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+}
+
+@media screen and(max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    outline: 0;
+    transition: all 0.3s ease;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Abel&family=Domine:wght@600&display=swap");
+
+  body {
+    background-image: url(https://wallpapercave.com/wp/wp10777288.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "abel", sem serifa;
+    font-family: "cinzel", serif, monospace;
+    font-size: 22px;
+    padding: -85px;
+    margin-left: 15px;
+  }
+
+  input {
+    margin: 6px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: #ffff;
+    border: solid 1px;
+    border-color: #ffffff;
+    background-color: #c9efec71;
+    font-size: 19px;
+    padding-left: 12px;
+    text-decoration: none;
+  }
+
+  input:hover {
+    transform: scale(1.18);
+  }
+
+  textarea {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #062c7f;
+    border-radius: 7px;
+    border: double 1px;
+    border-color: #eda47a;
+    margin: 10px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    width: 400px;
+    height: 200px;
+  }
+
+  button {
+    font-size: 20px;
+    margin: 5px;
+    background-image: linear-gradient(-45deg, #c66afb, #bbf0f3, #f6d285);
+    box-shadow: 0 0 7px #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    width: 140px;
+    height: 35px;
+  }
+
+  button:hover {
+    transform: scale(1.45);
+    color: #050585;
+  }
+
+  div img {
+    opacity: 0.7;
+    border-radius: 13px;
+    box-shadow: 0 0 4px #ffff;
+    margin: 10px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+  }
+
+  div img:hover {
+    transform: scale(1.25);
+  }
+
+  label {
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    opacity: 0.9;
+    border-radius: 12px;
+    font-size: 35px;
+    white-space: nowrap;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    color: #aef0ef;
+    top: 1px;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 21px;
+    margin-left: 25px;
+    margin-bottom: -30px;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #eda47a;
+  }
+
+  hr {
+    width: 450px;
+    margin-left: -10px;
+    top: -15px;
+    background-color: #f8bf02;
+  }
+
+  hr:hover {
+    transform: scale(1.25);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f8bf02ad;
+  }
+
+  ::-webkit-scrollbar {
+    overflow-block: hidden;
+  }
+
+  #alunos {
+    color: #f8bf02;
+  }
+
+  #header {
+    margin-bottom: 200px;
+    margin-left: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    overflow-x: visible;
+  }
+
+  #header:hover {
+    transform: scale(1.25);
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+    border: double 4px #7abfed;
+    border-radius: 50%;
+    padding: -0%;
+    margin-left: 19px;
+    margin-bottom: -75px;
+    opacity: 1;
+  }
+
+  #birthYear {
+    margin-left: 8px;
+  }
+
+  #name {
+    margin-left: 8px;
+  }
+
+  .Formulário {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+
+  .campodeestudos {
+    margin-left: 19px;
+    color: #fff4f4;
+  }
+
+  .rubi {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .rubi[type="checkbox"]:checked + #rubi::after {
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -64px;
+    top: 486px;
+    transition: all 1s ease;
+    transform: rotate(45deg);
+    content: "";
+  }
+
+  #rubi {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  .react {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .react[type="checkbox"]:checked + #react::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -135px;
+    top: 631px;
+    transform: rotate(45deg);
+  }
+
+  #react {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+
+  .php {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .php[type="checkbox"]:checked + #php::after {
+    content: "";
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    margin-left: -55px;
+    top: 777px;
+    transform: rotate(45deg);
+  }
+
+  #php {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+  .sql {
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    border: solid 2px #eda47a;
+    appearance: none;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 15px;
+  }
+
+  .sql[type="checkbox"]:checked + #sql::after {
+    content: "";
+    position: absolute;
+    border: solid #eda47a;
+    border-width: 0 2px 2px 0;
+    align-items: center;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    top: 922px;
+    margin-left: -50.5px;
+    transform: rotate(45deg);
+  }
+
+  #sql {
+    margin-right: 2px;
+    margin-bottom: -1px;
+  }
+}
